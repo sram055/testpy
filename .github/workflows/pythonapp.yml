@@ -4,9 +4,11 @@
 name: Python application
 
 on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '*/2 * * * *'
+  # Trigger the workflow on push or pull request,
+  # but only for the master branch
+  push:
+    branches:
+      - master
 jobs:
   build:
 
