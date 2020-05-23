@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as XML
 
-def GenerateXML(fileName)
+def GenerateXML(fileName):
     root=xml.Element("Customers")
     cl=xml.Element("customer")
     root.append(cl)
