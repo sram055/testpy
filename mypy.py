@@ -5,10 +5,10 @@ def GenerateXML(fileName):
     cl=xml.Element("customer")
     root.append(cl)
 
-    type1=xml.SubElement(c1, "Place")
+    type1=xml.SubElement(c1,"Place")
     type1.text="UK"
 
-    Amount1=xml.SubElement(c1, "Amount")
+    Amount1=xml.SubElement(c1,"Amount")
     Amount1.text = "5000"
 
     tree=xml.ElementTree(root)
