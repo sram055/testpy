@@ -1,9 +1,7 @@
-l=[]
+a = 123456789123456789
 
-for i in range(2000, 3201):
+b = int(123456789123456789.0)
 
-    if (i%7==0) and (i%5!=0):
+print(f"value a: {a}")
 
-        l.append(str(i))
-
-print ','.join(l)
+print(f"value b: {b}")
