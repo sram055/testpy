@@ -8,12 +8,12 @@ def GenerateXML(fileName):
     type1=xml.SubElement(c1, "Place")
     type1.text="UK"
 
-    Amount1=xml.SubElement(c1, "Amount1")
+    Amount1=xml.SubElement(c1, "Amount")
     Amount1.text = "5000"
 
     tree=xml.ElementTree(root)
 
     with open(fileName, "wb") as files:
        tree.write(files)
-if __name__ == "__main__":
+if __name__=="__main__":
     GenerateXML("Cust.xml") 
