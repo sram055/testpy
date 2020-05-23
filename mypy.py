@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as XML
+import xml.etree.ElementTree as xml
 
 def GenerateXML(fileName):
     root=xml.Element("Customers")
