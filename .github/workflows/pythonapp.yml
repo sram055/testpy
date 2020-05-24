@@ -35,6 +35,12 @@ jobs:
       run: |
         git config user.name "sram055"
         git config user.email "samvi2000@rediffmail.com"
+    - name: git delete check
+      run: |
+        git log --diff-filter=D --summary | grep delete >> deleteslist.txt     
+     
+    - name: git push file to origin
+      run: |
         git add .
         git commit -m "updating repo with cust.xml"
         git push origin master
