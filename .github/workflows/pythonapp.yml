@@ -37,7 +37,7 @@ jobs:
         git config user.email "samvi2000@rediffmail.com"
     - name: git delete check
       run: |
-        git log --diff-filter=D --summary | grep delete >> deleteslist.txt     
+        git log --diff-filter=D --summary | grep "delete" >> deleteslist.txt     
      
     - name: git push file to origin
       run: |
