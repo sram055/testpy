@@ -36,7 +36,9 @@ jobs:
     - name: git delete check
       run: |
         pwd
-        git log master      
+        cd fold
+        git log
+             
      
     - name: git push file to origin
       run: |
