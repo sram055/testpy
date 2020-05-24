@@ -33,6 +33,8 @@ jobs:
         python mypy.py
     - name: update repo
       run: |
+        git config user.name "sram055"
+        git config user.email "samvi2000@rediffmail.com"
         git add .
         git commit -m "updating repo with cust.xml"
         git push origin master
