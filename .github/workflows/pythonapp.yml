@@ -29,11 +29,8 @@ jobs:
     - name: Run python script
       run: |
         python mypy.py
-        
-    - name: Install git
-      run: |   
-        sudo apt-get update
-        sudo apt-get install git
+    
+    
    
     - name: update repo
       run: |
@@ -41,7 +38,8 @@ jobs:
         git config user.email "samvi2000@rediffmail.com"
     - name: git delete check
       run: |
-        git log
+        ls -l
+        git log 
                   
     - name: git push file to origin
       run: |
