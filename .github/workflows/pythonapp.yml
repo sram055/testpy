@@ -28,6 +28,14 @@ jobs:
     - name: Install git
       run: |
         git log --diff-filter=D --summary      
-    - name: Test with pytest
+    - name: Run python script
       run: |
         python mypy.py
+    - name: update repo
+      run: |
+        git add .
+        git commit -m "updating repo with cust.xml"
+        git push origin master
+        
+        
+        
