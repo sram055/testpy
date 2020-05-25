@@ -1,10 +1,9 @@
 import xml.etree.ElementTree as xml
 import gitapi
-import gitapi
 repo = gitapi.Repo("testpy") #existing folder
 repo.git_init()
 repo.git_add("fole\newfile2") #already created but not added file
-repo.git_commit("Adding newfile2", user="samvi2000@rediffmail.com")
+repo.git_commit("Adding newfile2", user="sram055")
 str(repo['HEAD'].desc)
 'Adding newfile2'
 
