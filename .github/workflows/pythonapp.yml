@@ -23,24 +23,24 @@ jobs:
           
     - name: Install dependencies
       run: |
-        git config user.name "sram055"
-        git config user.email "samvi2000@rediffmail.com"
-        git checkout master
-        cd /home/runner/work/testpy/testpy
-        ls -ltr
-        git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
         python -m pip install --upgrade pip
         pip install flake8 pytest gitapi
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
   
     - name: Run python script
       run: |
+        git config user.name "sram055"
+        git config user.email "samvi2000@rediffmail.com"
+        git checkout master
+        cd /home/runner/work/testpy/testpy
+        ls -ltr
+        git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
         python mypy.py
     
     - name: git push file to origin
       run: |
         git add .
-        git commit -m "updating repo with custy.xml"
+        git commit -m "updating repo with customery.xml"
         git push origin master
         
         
