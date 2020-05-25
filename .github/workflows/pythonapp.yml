@@ -28,7 +28,7 @@ jobs:
   
     - name: Run python script
       run: |
-        git log –author="sram055"
+        git log –-author='sram055'
         python mypy.py
     
     - name: update repo
