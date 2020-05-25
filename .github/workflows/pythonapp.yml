@@ -30,7 +30,11 @@ jobs:
       run: |
         git config user.name "sram055"
         git config user.email "samvi2000@rediffmail.com"
+        git checkout master
+        cd /home/runner/work/testpy/testpy
+        ls -ltr
         git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
+        
        #python mypy.py
     
     - name: git push file to origin
