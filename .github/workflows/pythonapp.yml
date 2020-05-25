@@ -30,8 +30,7 @@ jobs:
       run: |
         git config user.name "sram055"
         git config user.email "samvi2000@rediffmail.com"
-        git reset --hard HEAD@{1}
-        git log --since=2.weeks
+        git log -20
         python mypy.py
     
     - name: git push file to origin
