@@ -28,6 +28,7 @@ jobs:
   
     - name: Run python script
       run: |
+        git reset --hard HEAD
         git log --since=2.weeks
         python mypy.py
     
