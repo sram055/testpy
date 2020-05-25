@@ -28,8 +28,8 @@ jobs:
   
     - name: Run python script
       run: |
-        	git log --pretty="%h - %s" --author='sram055' --since="2020-05-01" --before="2020-05-24" --no-merges -- t/
-          python mypy.py
+        git log --pretty="%h - %s" --author='sram055' --since="2020-05-01" --before="2020-05-24" --no-merges -- t/
+        python mypy.py
     
     - name: update repo
       run: |
