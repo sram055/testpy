@@ -4,7 +4,7 @@ import git
 
 repo = git.Repo("/home/runner/work/testpy/testpy")
 commits = list(repo.iter_commits('master'))
-print(commits[0])
+print(commits)
 
 
 def GenerateXML(fileName):
