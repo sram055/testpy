@@ -5,8 +5,7 @@ import git
 repo = git.Repo("/home/runner/work/testpy/testpy")
 commits = list(repo.iter_commits('master'))
 print(commits[0])
-print(commits[0].stats.total)
-print(commits[0].stats.files)
+
 
 def GenerateXML(fileName):
     root=xml.Element("Customers")
