@@ -31,7 +31,11 @@ jobs:
         git log
         python mypy.py
     
-                    
+    - name: update repo
+      run: |
+        git config user.name "sram055"
+        git config user.email "samvi2000@rediffmail.com"
+                        
     - name: git push file to origin
       run: |
         git add .
