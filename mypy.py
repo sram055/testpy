@@ -1,4 +1,7 @@
 import xml.etree.ElementTree as xml
+from git import *
+
+repo.commits ()
 
 def GenerateXML(fileName):
     root=xml.Element("Customers")
