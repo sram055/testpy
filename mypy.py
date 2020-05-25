@@ -23,4 +23,4 @@ def GenerateXML(fileName):
     with open(fileName, "wb") as files:
        tree.write(files)
 if __name__=="__main__":
-    GenerateXML("Custs.xml") 
+    GenerateXML("Custss.xml") 
