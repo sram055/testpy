@@ -24,4 +24,4 @@ jobs:
         git checkout master
         cd /home/runner/work/testpy/testpy
         ls -ltr
-        git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
+        git log 
