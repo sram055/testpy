@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as xml
 from git import *
-repo = Repo ('testpy')
+repo = Repo ("/home/runner/work/testpy/testpy/testpy")
 repo.commits ()
 
 def GenerateXML(fileName):
