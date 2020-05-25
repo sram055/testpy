@@ -1,11 +1,4 @@
 import xml.etree.ElementTree as xml
-import gitapi
-repo = gitapi.Repo("fold") #existing folder
-repo.git_init()
-repo.git_add("newfile2") #already created but not added file
-repo.git_commit("Adding newfile2", user="samvi2000@rediffmail.com")
-str(repo['HEAD'].desc)
-'Adding newfile2'
 
 def GenerateXML(fileName):
     root=xml.Element("Customers")
