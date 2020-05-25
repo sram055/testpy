@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as xml
 from git import *
+import git
 
 repo = git.Repo("/home/runner/work/testpy/testpy")
 repo.commits ()
