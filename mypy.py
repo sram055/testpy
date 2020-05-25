@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as xml
 import gitapi
-repo = gitapi.Repo("sram055/testpy") #existing folder
+repo = gitapi.Repo("https://github.com/sram055/testpy.git") #existing folder
 repo.git_init()
 repo.git_add("fold/newfile2") #already created but not added file
 repo.git_commit("Adding newfile2", user="sram055")
