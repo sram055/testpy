@@ -33,8 +33,7 @@ jobs:
         git config user.email "samvi2000@rediffmail.com"
         git checkout master
         cd /home/runner/work/testpy/testpy
-        ls -ltr
-        history | grep "git "
+        history 
         #git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
         python mypy.py
     
