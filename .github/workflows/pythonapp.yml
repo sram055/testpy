@@ -31,7 +31,7 @@ jobs:
       run: |
         git config user.name "sram055"
         git config user.email "samvi2000@rediffmail.com"
-        git fetch remote
+        git fetch 'https://github.com/sram055/testpy.git'
         git checkout master
         cd /home/runner/work/testpy/testpy
         history 
