@@ -34,6 +34,7 @@ jobs:
         cd testing 
         git init
         git clone 'https://github.com/sram055/testpy.git'
+        ls -ltr
         git fetch --all
         git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
         python mypy.py
