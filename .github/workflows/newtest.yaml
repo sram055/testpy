@@ -36,6 +36,7 @@ jobs:
         git clone 'https://github.com/sram055/testpy.git'
         ls -ltr
         cd testpy
+        ls -ltr
         git fetch --all
         git log 
         python mypy.py
