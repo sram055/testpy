@@ -35,6 +35,7 @@ jobs:
         git config user.email "samvi2000@rediffmail.com"
         git clone 'https://github.com/sram055/testpy.git'
         ls -ltr
+        cd testpy
         git fetch --all
         git log 
         python mypy.py
