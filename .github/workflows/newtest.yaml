@@ -35,7 +35,7 @@ jobs:
         git config user.email "samvi2000@rediffmail.com"
         git clone 'https://github.com/sram055/testpy.git'
         ls -ltr
-        git fetch --all
+        git fetch origin master
         git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
         python mypy.py
     
