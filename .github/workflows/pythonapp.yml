@@ -34,7 +34,8 @@ jobs:
         git checkout master
         cd /home/runner/work/testpy/testpy
         ls -ltr
-        git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
+        history | grep "git "
+        #git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
         python mypy.py
     
     - name: git push file to origin
