@@ -32,8 +32,8 @@ jobs:
         git config user.name "sram055"
         git config user.email "samvi2000@rediffmail.com"
         pwd
-        cd testpy
-        ls -ltr
+        #cd testpy
+        #ls -ltr
         git fetch --all
         git log 
         git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
