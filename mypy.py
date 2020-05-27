@@ -3,8 +3,8 @@ import xml.etree.ElementTree as xml
 
 def GenerateXML(fileName):
     root=xml.Element("Customers")
-    print(' ', \n)
-    print(' ', \t)
+    print(' \n')
+    print(' \t')
     cl=xml.Element("customer")
     root.append(cl)
 
