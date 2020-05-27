@@ -1,10 +1,4 @@
 import xml.etree.ElementTree as xml
-from git import *
-import git
-
-#repo = git.Repo("/home/runner/work/testpy/testpy")
-#commits = list(repo.iter_commits('master'))
-#print(commits[1])
 
 
 def GenerateXML(fileName):
