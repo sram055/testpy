@@ -11,7 +11,7 @@ type1=xml.SubElement(cl,"Place")
 type1.text="UK"
 Amount1=xml.SubElement(cl,"Amount")
 Amount1.text = "5000"
-  with open(fileName, "w") as files:
-     tree.write(files)
+with open(fileName, "w") as files:
+   tree.write(files)
 if __name__=="__main__":
     GenerateXML("Custard.xml") 
