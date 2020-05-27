@@ -11,7 +11,7 @@ def GenerateXML(fileName):
     #  type1.text="UK"
     #  Amount1=SubElement(cl,"Amount")
     #  Amount1.text = "5000"
-      print etree.tostring(root)
+    #  print etree.tostring(root)
       with open(fileName, "w") as files:
          tree.write(files)
 if __name__=="__main__":
