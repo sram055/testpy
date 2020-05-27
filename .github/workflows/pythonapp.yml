@@ -32,8 +32,8 @@ jobs:
         git config user.name "sram055"
         git config user.email "samvi2000@rediffmail.com"
         git fetch --all
-        #git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
-        git log --after="2020-05-01 00:00" --before="2020-05-30 23:59"  
+        git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
+        #git log --after="2020-05-01 00:00" --before="2020-05-30 23:59"  
         python mypy.py
     
     - name: git push file to origin
