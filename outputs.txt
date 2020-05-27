@@ -1,2 +1,2 @@
- delete mode 100644 src/tesr.yml
- delete mode 100644 testdel
+delete
+delete
