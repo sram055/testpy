@@ -17,7 +17,7 @@ def GenerateXML(fileName):
     Amount1.text = "5000"
 
     tree=xml.ElementTree(root)
-    print etree.tostring(root)
+    #print etree.tostring(root)
     with open(fileName, "w") as files:
        tree.write(files)
 if __name__=="__main__":
