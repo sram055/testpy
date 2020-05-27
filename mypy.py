@@ -4,7 +4,7 @@ from xml.etree.ElementTree import Element
 import xml.etree.ElementTree as etree
 import xml.etree.ElementTree as xml
 
-def GenerateXML(fileName):
+
     root=xml.Element("Customers")
     
     cl=xml.Element("customer")
@@ -18,6 +18,5 @@ def GenerateXML(fileName):
 
     tree=xml.ElementTree(root)
     #print etree.tostring(root)
-    tree.write(open(filename,'w'))
-if __name__=="__main__":
-    GenerateXML("Cutty.xml")
+    tree.write(open('casper.xml','w'))
+
