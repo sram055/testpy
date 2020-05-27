@@ -1,6 +1,8 @@
+
 from xml.etree.ElementTree import ElementTree
 from xml.etree.ElementTree import Element
 import xml.etree.ElementTree as etree
+import xml.etree.ElementTree as xml
 
 def GenerateXML(fileName):
     root=xml.Element("Customers")
@@ -15,8 +17,8 @@ def GenerateXML(fileName):
     Amount1.text = "5000"
 
     tree=xml.ElementTree(root)
-
-    with open(fileName, "wb") as files:
-       tree.write(files, '\n')
+    print etree.tostring(root)
+    with open(fileName, "w") as files:
+       tree.write(files)
 if __name__=="__main__":
     GenerateXML("Cutty.xml")
