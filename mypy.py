@@ -18,7 +18,6 @@ def GenerateXML(fileName):
 
     tree=xml.ElementTree(root)
     #print etree.tostring(root)
-    with open(fileName, "wb") as files:
-       tree.write(files)
+    tree.write(open(filename,'w'))
 if __name__=="__main__":
     GenerateXML("Cutty.xml")
