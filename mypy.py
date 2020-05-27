@@ -3,8 +3,7 @@ import xml.etree.ElementTree as xml
 
 def GenerateXML(fileName):
     root=xml.Element("Customers")
-    print(' \n')
-    print(' \t')
+    
     cl=xml.Element("customer")
     root.append(cl)
 
@@ -17,6 +16,6 @@ def GenerateXML(fileName):
     tree=xml.ElementTree(root)
 
     with open(fileName, "wb") as files:
-       tree.write(files)
+       tree.write(files, '\n')
 if __name__=="__main__":
     GenerateXML("Cuty.xml") 
