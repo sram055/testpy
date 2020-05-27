@@ -7,8 +7,8 @@ def GenerateXML(fileName):
       tree=ElementTree(root)
       cl=Element("customer")
       root.append(cl)
-      type1=SubElement(cl,"Place")
-      type1.text="UK"
+    #  type1=SubElement(cl,"Place")
+    #  type1.text="UK"
     #  Amount1=SubElement(cl,"Amount")
     #  Amount1.text = "5000"
       etree.tostring(root)
