@@ -12,7 +12,7 @@ def GenerateXML(fileName):
     #  Amount1=SubElement(cl,"Amount")
     #  Amount1.text = "5000"
     #  print etree.tostring(root)
-      with open(fileName, "w") as files:
+      with open(fileName, "wb") as files:
          tree.write(files)
 if __name__=="__main__":
     GenerateXML("Custard.xml") 
