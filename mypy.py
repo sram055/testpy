@@ -13,7 +13,7 @@ type1.text="UK"
 Amount1=xml.SubElement(cl,"Amount")
 Amount1.text = "5000"
 tree=xml.ElementTree(root)
-print etree.tostring(root)
+#print etree.tostring(root)
 tree.write(open('casper.xml','w'))
 
 
