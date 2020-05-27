@@ -34,7 +34,7 @@ jobs:
         git fetch --all
         #git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
         #git log   --after="2020-05-01 00:00" --before="2020-05-30 23:59"  --graph --decorate  $(git reflog | awk '{print $1}')
-        git log --oneline --all --after="2020-04-01 00:00" --before="2020-04-30 23:59"  --diff-filter=D --summary | grep 'delete'
+        git log --oneline --after="2020-04-01 00:00" --before="2020-04-30 23:59"  --diff-filter=D --summary | grep 'delete'
         python mypy.py
     
     - name: git push file to origin
