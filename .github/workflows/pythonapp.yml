@@ -9,12 +9,12 @@ on:
     # * is a special character in YAML so you have to quote this string
     #- cron: '*/5 * * * *'
       
-#on:
+on:
   # Trigger the workflow on push or pull request,
   # but only for the master branch
-  #push:
+  push:
   #  branches:
-  #      - master
+        - master
   #      - sram055-patch-1
 jobs:
   build:
