@@ -1,6 +1,6 @@
 from xml.etree.ElementTree import ElementTree
 from xml.etree.ElementTree import Element
-import xml.etree.ElementTree etree
+import xml.etree.ElementTree as etree
 
 
 root=xml.Element("Customers")
