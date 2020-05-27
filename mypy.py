@@ -9,8 +9,8 @@ def GenerateXML(fileName):
       root.append(cl)
       type1=SubElement(cl,"Place")
       type1.text="UK"
-      Amount1=SubElement(cl,"Amount")
-      Amount1.text = "5000"
+    #  Amount1=SubElement(cl,"Amount")
+    #  Amount1.text = "5000"
       etree.tostring(root)
       with open(fileName, "w") as files:
          tree.write(files)
