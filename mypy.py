@@ -9,7 +9,7 @@ def GenerateXML(fileName):
       root.append(cl)
       type1=SubElement(cl,"Place")
       type1.text="UK"
-      Amount1=xml.SubElement(cl,"Amount")
+      Amount1=SubElement(cl,"Amount")
       Amount1.text = "5000"
       etree.tostring(root)
       with open(fileName, "w") as files:
