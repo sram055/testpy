@@ -20,7 +20,7 @@ def GenerateXML(fileName):
     tree=xml.ElementTree(root)
 
     with open(fileName, "wb") as files:
-       tree.write(files, '\n')
+       tree.write(files)
 if __name__=="__main__":
     GenerateXML("Cukty.xml") 
 	
