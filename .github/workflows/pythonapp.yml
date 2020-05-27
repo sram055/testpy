@@ -8,7 +8,7 @@ on:
   # but only for the master branch
   push:
      branches:
-        - master
+       # - master
         - sram055-patch-1
 jobs:
   build:
