@@ -1,0 +1,179 @@
+commit 11a9c0a6efef915e7d26761070310c0d2821bbc6
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Wed May 27 17:12:19 2020 +0530
+
+    Delete outputs.txt
+
+commit 6317f7339c8d5413ebc7c3eb5f0f2ea6b2fded52
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sun May 24 12:28:34 2020 +0530
+
+    Create tesr.yml
+
+commit d34df0ee2d94d2e5d784299744b250faa6f52614
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 23:12:07 2020 +0530
+
+    Delete testdel
+
+commit df22298da8ba50a0725212c56bdf05ba1332fcc0
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 23:11:28 2020 +0530
+
+    Create testdel
+
+commit 38529e9f7b303978a2eda7b3da7738d4d2804bb1
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 21:51:49 2020 +0530
+
+    Update pythonapp.yml
+
+commit 7d6a86de4b8805e85d9010c3d4e2df80b7b0fd4b
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 21:49:28 2020 +0530
+
+    Update pythonapp.yml
+
+commit 111a85ee3943f0e3177972fbd34c1cc30a005766
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 21:48:05 2020 +0530
+
+    Update pythonapp.yml
+
+commit deef60b87cecb365134cd91f736f9d5fd69e8361
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 21:43:46 2020 +0530
+
+    Update pythonapp.yml
+
+commit 8953e389b36334b28b3c11108d8bb0d6ab971ace
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 21:42:22 2020 +0530
+
+    Update pythonapp.yml
+
+commit 82b84e011a19bb19b1b53eb6a77405246d6835dc
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:40:30 2020 +0530
+
+    Update mypy.py
+
+commit b00e92af33edff8a063f01b1bdcb9d3bfe2a003b
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:39:24 2020 +0530
+
+    Update mypy.py
+
+commit e2ac2e557233e2d3979fb30537fb7420438c5713
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:38:59 2020 +0530
+
+    Update mypy.py
+
+commit ca7daa6dc096b309a6fdc6b24032f8838e9a9942
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:36:55 2020 +0530
+
+    Update mypy.py
+
+commit 9cf9b261f8f63ed67c116ff75d1a52b52c6ba3d9
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:34:04 2020 +0530
+
+    Update mypy.py
+
+commit 379187d0af39ff612032411e225c260eb2573bfa
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:32:24 2020 +0530
+
+    Update mypy.py
+
+commit e4208c3d2f5e43ccd960a0c582a34d20ef049073
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:31:24 2020 +0530
+
+    Update mypy.py
+
+commit e9b492a6dbecb1899e2a015922c022352ec425d0
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:30:09 2020 +0530
+
+    Update mypy.py
+
+commit 62af12f1f1de81cc871f89c55226cea1b64520fe
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:27:03 2020 +0530
+
+    Update mypy.py
+
+commit b85a7d9f3396b5b18ea3a50b28477d328838bf08
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:18:35 2020 +0530
+
+    Update mypy.py
+
+commit d0ce2c7f28217714c33d6f41dc9cd4c61ff26ed7
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:16:29 2020 +0530
+
+    Update mypy.py
+
+commit 9bfb9913864c1448bb8031572784dbfc15d8c2bd
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:15:33 2020 +0530
+
+    Update mypy.py
+
+commit 16010a4d623122d88ae715de462e2764d8a694fb
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:13:53 2020 +0530
+
+    Update mypy.py
+
+commit f9e1edcd6469b00c522b702c3f32e619e3b73e6e
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:12:09 2020 +0530
+
+    Update pythonapp.yml
+
+commit 588eedb950fc679d985c5ab35f11a31aefb1a948
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:10:31 2020 +0530
+
+    Update pythonapp.yml
+
+commit 2a955eeee90399db9803b4a6ea36cf2e22c90edc
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 17:09:09 2020 +0530
+
+    Create mypy.py
+
+commit 79767c93b4e54d3563949d9e0a6b651288f72cd3
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 16:59:01 2020 +0530
+
+    Update pythonapp.yml
+
+commit 409170e2c30a2f2bae057bf733d47d1b6edae7f4
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 16:56:14 2020 +0530
+
+    Update pythonapp.yml
+
+commit d9a823af75a31893b2fa25f5546dc347cc2dc19c
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 16:51:33 2020 +0530
+
+    Update pythonapp.yml
+
+commit ad64095fe7f9ae969ca074aa7be21cca310e61d5
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 16:36:29 2020 +0530
+
+    Create pythonapp.yml
+
+commit 9cb59a46a3f1fd29a51e4c60a6b3c270e4a1baf5
+Author: sram055 <41504162+sram055@users.noreply.github.com>
+Date:   Sat May 23 16:35:18 2020 +0530
+
+    Initial commit
