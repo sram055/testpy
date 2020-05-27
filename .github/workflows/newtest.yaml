@@ -3,26 +3,18 @@
 
 name: Python application
 
-
-on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '* * * * *'
-      
 #on:
-  # Trigger the workflow on push or pull request,
+   #Trigger the workflow on push or pull request,
   # but only for the master branch
-  #push:
-  #  branches:
-  #      - master
-  #      - sram055-patch-1
+ # push:
+   #  branches:
+    #    - master
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
@@ -36,10 +28,17 @@ jobs:
   
     - name: Run python script
       run: |
+        mkdir testing
+        cd testing 
+        git init
         git config user.name "sram055"
         git config user.email "samvi2000@rediffmail.com"
+        git clone 'https://github.com/sram055/testpy.git'
+        ls -ltr
+        cd testpy
+        ls -ltr
         git fetch --all
-        git log --all --after="2020-05-21 00:00" --before="2020-05-30 23:59" --diff-filter=D --summary | grep 'delete' | awk '{print $4}' > outputs.xml
+        git log 
         python mypy.py
     
     - name: git push file to origin
@@ -47,6 +46,4 @@ jobs:
         git add .
         git commit -m "updating repo with customery.xml"
         git push origin master
-        
-        
         
