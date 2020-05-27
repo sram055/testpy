@@ -9,6 +9,7 @@ on:
   push:
      branches:
         - master
+        - sram055-patch-1
 jobs:
   build:
 
@@ -31,8 +32,7 @@ jobs:
       run: |
         git config user.name "sram055"
         git config user.email "samvi2000@rediffmail.com"
-        #git fetch --all
-        git fetch sram055-patch-1
+        git fetch --all
         git log --all --after="2020-05-21 00:00" --before="2020-05-30 23:59" --diff-filter=D --summary | grep 'delete' > outputs.txt
         python mypy.py
     
