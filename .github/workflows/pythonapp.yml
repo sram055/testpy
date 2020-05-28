@@ -5,18 +5,18 @@ name: Python application
 
 
 
-#on:
- 
- #schedule:
-    # * is a special character in YAML so you have to quote this string
-    #- cron: '*/5 * * * *'
-      
 on:
+ 
+ schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron: '55 10 28 05 04'
+      
+#on:
   # Trigger the workflow on push or pull request,
   # but only for the master branch
- push:
-    branches:
-      - master
+ #push:
+  #  branches:
+   #   - master
   #      - sram055-patch-1
 jobs:
   build:
