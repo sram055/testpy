@@ -4,9 +4,9 @@
 name: Python application
 
  on:
-  schedule:
+   schedule:
    # * is a special character in YAML so you have to quote this string
-    - cron: '26 6 28 5 4'
+    - cron: '29 6 28 5 4'
       
 #on:
   # Trigger the workflow on push or pull request,
