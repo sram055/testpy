@@ -9,7 +9,7 @@ on:
  
  schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: '10 6 28 5 4'
+    - cron: '15 6 28 5 4'
       
 #on:
   # Trigger the workflow on push or pull request,
