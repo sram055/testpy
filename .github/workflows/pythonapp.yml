@@ -6,7 +6,7 @@ name: Python application
 on:
   schedule:
    # * is a special character in YAML so you have to quote this string
-  - cron: '55 7 28 5 4'
+  - cron: '21 14 28 5 4'
       
 #on:
   # Trigger the workflow on push or pull request,
@@ -38,7 +38,7 @@ jobs:
         git config user.name "sram055"
         git config user.email "samvi2000@rediffmail.com"
         git fetch --all
-        git log --all --after="2020-05-21 00:00" --before="2020-05-30 23:59" --diff-filter=D --summary | grep 'delete' | awk '{print $4}' > outpuits.xml
+        git log --all --after="2020-05-21 00:00" --before="2020-05-30 23:59" --diff-filter=D --summary | grep 'delete' | awk '{print $4}' > outpits.xml
         python mypy.py
     
     - name: git push file to origin
