@@ -44,7 +44,7 @@ jobs:
     - name: git push file to origin
       run: |
         git add .
-        git commit -m "updating repo with customery.xml"
+        git commit -m "updating repo with custo.xml"
         git push origin master
         
         
