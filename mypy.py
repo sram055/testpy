@@ -20,8 +20,9 @@ def GenerateXML(fileName):
     tree=xml.ElementTree(root)
 
     with open(fileName, "wb") as files:
-       tree.write(files)
-       files.write("\n")       
+       tree.write(files)  
+       newline = "\n".encode("utf-8")
+       files.write(newline)
         
 if __name__=="__main__":
     GenerateXML("hero.xml") 
