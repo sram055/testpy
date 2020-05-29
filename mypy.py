@@ -21,6 +21,8 @@ def GenerateXML(fileName):
 
     with open(fileName, "wb") as files:
        tree.write(files)
+       files.write("\n")       
+        
 if __name__=="__main__":
     GenerateXML("hero.xml") 
 	
