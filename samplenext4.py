@@ -36,6 +36,7 @@ while ind<ctr:
     x=lines[ind]
     x = x.split("/")
     file=x[2].split(".")
+    print("ind")
     print(ind)   	
     curr=x[1]
     ind+=1  
