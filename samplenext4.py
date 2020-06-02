@@ -19,8 +19,7 @@ objectmemberline=[]
 files = open("destuctive1.xml", "wb")  
 
 with open('destruct.txt', 'r') as filehandle:
-    for line in filehandle:
-        
+   for line in filehandle:
         lines = [current_lines.rstrip() for current_lines in filehandle.readlines()] 
 	print(lines)
         currentlines = line[:-1]
@@ -30,8 +29,8 @@ with open('destruct.txt', 'r') as filehandle:
 ctr=(len(lines))
 typeline=""
 elementline=""
-#print(ctr)   
-       
+print(ctr)   
+print(ind)       
 ind=0
 prev=" "
 while ind<ctr:
