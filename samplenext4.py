@@ -30,13 +30,13 @@ ctr=(len(lines))
 typeline=""
 elementline=""
 print(ctr)   
-print(ind)       
 ind=0
 prev=" "
 while ind<ctr:
     x=lines[ind]
     x = x.split("/")
     file=x[2].split(".")
+    print(ind)   	
     curr=x[1]
     ind+=1  
     
