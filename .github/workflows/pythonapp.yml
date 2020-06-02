@@ -1,7 +1,7 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: Python application
+name: Python application full
 
 on:
   schedule:
@@ -48,8 +48,8 @@ jobs:
       run: |
         git config user.name "sram055"
         git config user.email "samvi2000@rediffmail.com"
-        git fetch --all
-        git log --all --after="2020-05-21 00:00" --before="2020-05-30 23:59" --diff-filter=D --summary | grep 'delete' | awk '{print $4}' 
+        #git fetch --all
+        #git log --all --after="2020-05-21 00:00" --before="2020-05-30 23:59" --diff-filter=D --summary | grep 'delete' | awk '{print $4}' 
         python samplenext4.py
     
     - name: git push file to origin
