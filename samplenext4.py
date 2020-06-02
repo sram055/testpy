@@ -7,12 +7,11 @@ import xml.etree.ElementTree as xml
 import xml.dom as xmly
 
 root = xml.Element('Package', xmlns={"http://soap.sforce.com/2006/04/metadata"})
- 
 
 
-tree_out  =  xml.tostring(root,  xml_declaration=True, encoding="UTF-8")
-tree_out_pretty=(xmly.minidom.parseString(tree_out).toprettyxml(indent=" ", encoding="UTF-8"))
-print(tree_out_pretty)
+#tree_out  =  xml.tostring(root,  xml_declaration=True, encoding="UTF-8")
+#tree_out_pretty=(xmly.minidom.parseString(tree_out).toprettyxml(indent=" ", encoding="UTF-8"))
+#print(tree_out_pretty)
 
 ctr=0
 objectmemberline=[]
@@ -40,7 +39,6 @@ while ind<ctr:
     print(ind)   	
     curr=x[1]
     ind+=1  
-    
     if x[1] == "classes":
         typeline="ApexClass"
         elementline=file[0]
@@ -66,9 +64,7 @@ while ind<ctr:
         Amount1.text = string1 
         root.append(cl)
 tree=xml.ElementTree(root)     
-tree.write(files)        
-
-        
+tree.write(files)               
         
 
 
