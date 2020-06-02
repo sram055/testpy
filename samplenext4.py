@@ -12,11 +12,12 @@ root = xml.Element('Package', xmlns={"http://soap.sforce.com/2006/04/metadata"})
 #tree_out  =  xml.tostring(root,  xml_declaration=True, encoding="UTF-8")
 #tree_out_pretty=(xmly.minidom.parseString(tree_out).toprettyxml(indent=" ", encoding="UTF-8"))
 #print(tree_out_pretty)
-
+ind=0
 ctr=0
 objectmemberline=[]
 files = open("destuctive1.xml", "wb")  
-
+print("ind")
+print(ind)
 with open('destruct.txt', 'r') as filehandle:
     for line in filehandle:
         lines = [current_lines.rstrip() for current_lines in filehandle.readlines()] 
@@ -29,14 +30,13 @@ ctr=(len(lines))
 typeline=""
 elementline=""
 print(ctr)   
-ind=0
+
 prev=" "
 while ind<ctr:
     x=lines[ind]
     x = x.split("/")
     file=x[2].split(".")
-    print("ind")
-    print(ind)   	
+     	
     curr=x[1]
     ind+=1  
     if x[1] == "classes":
