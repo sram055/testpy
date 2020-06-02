@@ -22,6 +22,7 @@ with open('destruct.txt', 'r') as filehandle:
     for line in filehandle:
         
         lines = [current_lines.rstrip() for current_lines in filehandle.readlines()] 
+	print(lines)
         currentlines = line[:-1]
         #currentlines = line[]
         lines.append(currentlines)
