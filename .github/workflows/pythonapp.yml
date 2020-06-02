@@ -5,6 +5,7 @@ name: Python application
 
 on:
   schedule:
+    - cron: '13 12 02 6 2'
    # * is a special character in YAML so you have to quote this string
    #  - cron:  '*/15 * * * *'
    #    # ┌───────────── minute (0 - 59)
@@ -16,7 +17,7 @@ on:
    #   │ │ │ │ │
    #  │ │ │ │ │
     #  * * * * *
-    - cron: '13 12 02 6 2'
+    
       
 #on:
   # Trigger the workflow on push or pull request,
