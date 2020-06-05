@@ -35,7 +35,7 @@ def add_member(key, val, cls_name):
 
 
 def generate_xml(data):
-    with open("output.xml", "wb") as f:
+    with open("destructiveChanges.xml", "wb") as f:
         for key, val in process_file():
             if key == "classes":
                 add_member(key, val, "classes")
