@@ -50,7 +50,7 @@ jobs:
         git config user.email "samvi2000@rediffmail.com"
         git fetch --all
         git log --all --after="2020-05-21 00:00" --before="2020-06-21 00:00" --diff-filter=D --summary | grep 'delete' | awk '{print $4}' 
-        python destructiveChanges.py
+        #python destructiveChanges.py
     
     - name: git push file to origin
       run: |
