@@ -1,2 +1,0 @@
-src/tesr.yml
-testdel
